@@ -1,0 +1,17 @@
+SELECT * FROM movies;
+SELECT name FROM people;
+UPDATE people SET name = 'Graham Bruce' WHERE name = 'Graeme Broose'; 
+SELECT name FROM people;
+SELECT name FROM people WHERE name = 'Stephen Ng';
+DELETE FROM movies WHERE title = 'Batman Begins';
+SELECT * FROM movies;
+INSERT INTO people (name) VALUES ('John McCollum');
+SELECT name FROM people;
+DELETE FROM people WHERE name = 'Harvey Wheaton';
+SELECT name FROM people;
+INSERT INTO movies (title, year, show_time) VALUES ('Spider-man: Homecoming', 2017, '12:00');
+SELECT * FROM movies;
+UPDATE movies SET show_time = '20:00' WHERE title = 'Guardians of the Galaxy 2';
+SELECT * FROM movies;
+DELETE FROM movies WHERE title IN ('Iron Man', 'Iron Man 2', 'Iron Man 3'); 
+SELECT * FROM movies;
